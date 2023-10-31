@@ -1,16 +1,17 @@
-### Hi there 👋
+<link rel="stylesheet" type="text/css" href="./beautiful.css">
 
-<!--
-**eust-w/eust-w** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+
+<div align="center">
+  <h3>Hi 👋, I'm <a href="https://longtao.fun">Longtao Wu(吴龙涛)</a></h3>
+  <p align="center"> 
+    <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"/>
+  </p>
+  <p align="center">
+     <a href="https://longtao.fun"><span>Blog</span></a> |
+     <a href="https://github.com/OSTGO"><span>OSTGO</span></a> 
+  </p>
+  <p>💻  Full-stack engineer</p>
+</div>
