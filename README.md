@@ -13,5 +13,5 @@
      <a href="https://longtao.fun"><span>Blog</span></a> |
      <a href="https://github.com/OSTGO"><span>OSTGO</span></a> 
   </p>
-  <p>🌟 Welcome to my corner of the GitHub universe! 🌟</p>
+  <p>🌟 Welcome to my corner of the coding universe! 🌟</p>
 </div>
