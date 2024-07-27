@@ -1,12 +1,12 @@
 <div align="center">
-    <h3>Hi 👋, I'm <a href="https://longtao.fun">Longtao Wu</a></h3>
+    <h3>Hi 👋, I'm <a href="https://longtao.fun">Longtao</a></h3>
     <p align="center"><img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"/></p>
     <p align="center">
         <a href="https://github.com/eust-w/eust-w/README_CN.md"><span>中文</span></a>|
         <a href="https://github.com/eust-w/eust-w/README_FR.md"><span>Français</span></a>|
         <a href="https://github.com/eust-w/eust-w/README_RU.md"><span>Французский</span></a>|
         <a href="https://github.com/eust-w/eust-w/README_AR.md"><span>عربي</span></a>|
-        <a href="https://github.com/eust-w/eust-w/README_JP.md"><span>日本语</span></a>|
+        <a href="https://github.com/eust-w/eust-w/README_JP.md"><span>日本語</span></a>|
     </p>
     <p>🌟 Welcome to my corner of the coding universe! 🌟</p>
     <h4 align="left">My Open Source Projects</h4>
