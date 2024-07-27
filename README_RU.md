@@ -10,7 +10,6 @@
         <a href="https://github.com/eust-w/eust-w/blob/main/README_JP.md"><span>日本語</span></a>|
     </p>
     <p>🌟 Добро пожаловать в мой уголок вселенной кодирования! 🌟</p>
-
     <h4 align="left">Мои Open Source проекты</h4>
     <table align="center">
         <tr>

@@ -10,7 +10,6 @@
         <a href="https://github.com/eust-w/eust-w/blob/main/README_JP.md"><span>日本語</span></a>|
     </p>
     <p>🌟 مرحبًا بكم في ركني من عالم البرمجة! 🌟</p>
-
     <h4 align="left">مشاريعي مفتوحة المصدر</h4>
     <table align="center">
         <tr>
