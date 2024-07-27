@@ -2,12 +2,12 @@
     <h3>مرحبًا 👋، أنا <a href="https://longtao.fun">Longtao</a></h3>
     <p align="center"><img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"/></p>
     <p align="center">
-        <a href="https://github.com/eust-w/eust-w/README.md"><span>English</span></a>|
-        <a href="https://github.com/eust-w/eust-w/README_CN.md"><span>中文</span></a>|
-        <a href="https://github.com/eust-w/eust-w/README_FR.md"><span>Français</span></a>|
-        <a href="https://github.com/eust-w/eust-w/README_RU.md"><span>Французский</span></a>|
-        <a href="https://github.com/eust-w/eust-w/README_AR.md"><span>عربي</span></a>|
-        <a href="https://github.com/eust-w/eust-w/README_JP.md"><span>日本語</span></a>|
+        <a href="https://github.com/eust-w/eust-w/blob/main/README.md"><span>English</span></a>|
+        <a href="https://github.com/eust-w/eust-w/blob/main/README_CN.md"><span>中文</span></a>|
+        <a href="https://github.com/eust-w/eust-w/blob/main/README_FR.md"><span>Français</span></a>|
+        <a href="https://github.com/eust-w/eust-w/blob/main/README_RU.md"><span>Французский</span></a>|
+        <a href="https://github.com/eust-w/eust-w/blob/main/README_AR.md"><span>عربي</span></a>|
+        <a href="https://github.com/eust-w/eust-w/blob/main/README_JP.md"><span>日本語</span></a>|
     </p>
     <p>🌟 مرحبًا بكم في ركني من عالم البرمجة! 🌟</p>
 
