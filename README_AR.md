@@ -2,7 +2,7 @@
     <h3>مرحبًا 👋، أنا <a href="https://longtao.fun">Longtao</a></h3>
  <p align="center">
         <a href="https://longtao.fun">
-            <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"/>
+            <img src="cat.webp" width="50"/>
         </a>
     </p>
     <p align="center">
