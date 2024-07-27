@@ -28,7 +28,6 @@
             <td><a href="https://github.com/eust-w/govirsh">govirsh</a> - Virsh go package</td>
         <tr>
             <td><a href="https://github.com/eust-w/ltrobot-mimiwechat">ai chat WeChat applet</a> - Ai chat with ltrobot</td>
-            <td><a href="https://github.com/eust-w/gnome-extension-wakwaka">gnome-extension-wakwaka</a> - gnome-extension</td>
+            <td><a href="https://github.com/eust-w/gnome-extension-wakwaka">gnome-extension-wakwaka</a> - Gnome-extension</td>
     </table>
-</div>
 </div>
