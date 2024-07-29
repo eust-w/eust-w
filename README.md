@@ -8,7 +8,7 @@
     <p align="center">
         <a href="https://github.com/eust-w/eust-w/blob/main/README_CN.md"><span>中文</span></a>|
         <a href="https://github.com/eust-w/eust-w/blob/main/README_FR.md"><span>Français</span></a>|
-        <a href="https://github.com/eust-w/eust-w/blob/main/README_RU.md"><span>Французский</span></a>|
+        <a href="https://github.com/eust-w/eust-w/blob/main/README_RU.md"><span>Русский</span></a>|
         <a href="https://github.com/eust-w/eust-w/blob/main/README_AR.md"><span>عربي</span></a>|
         <a href="https://github.com/eust-w/eust-w/blob/main/README_JP.md"><span>日本語</span></a>|
     </p>
