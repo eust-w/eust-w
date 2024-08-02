@@ -1,6 +1,6 @@
-<div align="center">
+<div align="center" style="background-image: url('1.gif'); background-size: cover; background-position: center; padding: 20px;">
     <h3>Hi 👋, I'm <a href="https://longtao.fun">Longtao</a></h3>
- <p align="center">
+    <p align="center">
         <a href="https://longtao.fun">
             <img src="cat.webp" width="50"/>
         </a>
@@ -26,12 +26,14 @@
         <tr>
             <td><a href="https://github.com/eust-w/qcow2file">qcow2file</a> - Generate qcow2 image from dockerfile</td>
             <td><a href="https://github.com/eust-w/aiPlatform">ai with wechat</a> - WeChat chat robot uses various AI</td>
-        <tr>
+        </tr>
         <tr>
             <td><a href="https://github.com/eust-w/openai-chat-switch">chat-switch lib</a> - Chat embeddings&switch package</td>
             <td><a href="https://github.com/eust-w/govirsh">govirsh</a> - Virsh go package</td>
+        </tr>
         <tr>
             <td><a href="https://github.com/eust-w/ltrobot-mimiwechat">ai chat WeChat applet</a> - Ai chat with ltrobot</td>
             <td><a href="https://github.com/eust-w/gnome-extension-wakwaka">gnome-extension-wakwaka</a> - Gnome-extension</td>
+        </tr>
     </table>
 </div>
