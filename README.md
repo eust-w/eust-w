@@ -11,6 +11,7 @@
         <a href="https://github.com/eust-w/eust-w/blob/main/README_RU.md"><span>Русский</span></a>|
         <a href="https://github.com/eust-w/eust-w/blob/main/README_AR.md"><span>عربي</span></a>|
         <a href="https://github.com/eust-w/eust-w/blob/main/README_JP.md"><span>日本語</span></a>|
+        <a href="https://github.com/eust-w/eust-w/blob/main/README_PTBR.md"><span>Português</span></a>|
     </p>
     <p>🌟 Welcome to my corner of the coding universe! 🌟</p>
     <h4 align="left">My Open Source Projects</h4>
