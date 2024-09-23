@@ -15,7 +15,7 @@
         <a href="https://github.com/eust-w/eust-w/blob/main/README_TR.md"><span>Türkçe</span></a>
     </p>
     <p>🌟 Seja bem vindo ao meu cantinho no mundo da programação! 🌟</p>
-    <h4 align="left">My Open Source Projects</h4>
+    <h4 align="left">Meus projetos Open Source</h4>
     <table align="center">
         <tr>
             <td><a href="https://github.com/eust-w/gopic">gopic</a> - Uma ferramenta para hospedar imagens, focada em velocidade⚡</td>
