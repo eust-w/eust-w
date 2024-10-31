@@ -26,9 +26,9 @@
             <td><a href="https://github.com/eust-w/obsidian-image-auto-upload">obsidian image plugin</a> - Plugin para colar imagens da área de transferência</td>
         </tr>
         <tr>
-            <td><a href="https://github.com/eust-w/qcow2file">qcow2file</a> - Utensílio para gerar imagens `qcow2` a partir de um arquivo docker</td>
+            <td><a href="https://github.com/eust-w/qcow2file">qcow2file</a> - Utilitário para gerar imagens `qcow2` a partir de um arquivo docker</td>
             <!-- Não possui link relacionado -->
-            <td>ai with wechat - Robô para o WeChat que faz o uso de várias AI</td>
+            <td>ai with wechat - Robô para o WeChat que faz uso de várias AI</td>
         </tr>
         <tr>
             <td><a href="https://github.com/eust-w/openai-chat-switch">chat-switch lib</a> - Pacote gerenciador de chats utilizando a API OpenAI</td>
