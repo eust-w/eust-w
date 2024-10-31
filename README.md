@@ -27,10 +27,10 @@
         </tr>
         <tr>
             <td><a href="https://github.com/eust-w/qcow2file">qcow2file</a> - Generate qcow2 image from dockerfile</td>
-            <td><a href="https://github.com/eust-w/aiPlatform">ai with wechat</a> - WeChat chat robot uses various AI</td>
+            <td><a href="https://github.com/eust-w/aiPlatform">ai with wechat</a> - WeChat chat robot that uses various AI</td>
         </tr>
         <tr>
-            <td><a href="https://github.com/eust-w/openai-chat-switch">chat-switch lib</a> - Chat embeddings&switch package</td>
+            <td><a href="https://github.com/eust-w/openai-chat-switch">chat-switch lib</a> - Chat embeddings & switch packages</td>
             <td><a href="https://github.com/eust-w/govirsh">govirsh</a> - Virsh go package</td>
         </tr>
         <tr>
