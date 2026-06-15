@@ -1,41 +1,50 @@
-<div align="center" style="background-image: url('https://pic.longtao.fun/pics/24/8712160154167691113610916885165716016931_gopic_.gif'); background-size: cover; background-position: center; padding: 20px;">
-    <h3>Hi 👋, I'm <a href="https://longtao.fun">Longtao</a></h3>
-    <p align="center">
-        <a href="https://longtao.fun">
-            <img src="cat.webp" width="50"/>
-        </a>
-    </p>
-    <p align="center">
-        <a href="https://github.com/eust-w/eust-w/blob/main/README_CN.md"><span>中文</span></a>|
-        <a href="https://github.com/eust-w/eust-w/blob/main/README_FR.md"><span>Français</span></a>|
-        <a href="https://github.com/eust-w/eust-w/blob/main/README_RU.md"><span>Русский</span></a>|
-        <a href="https://github.com/eust-w/eust-w/blob/main/README_AR.md"><span>عربي</span></a>|
-        <a href="https://github.com/eust-w/eust-w/blob/main/README_JP.md"><span>日本語</span></a>|
-        <a href="https://github.com/eust-w/eust-w/blob/main/README_PTBR.md"><span>Português</span></a>|
-        <a href="https://github.com/eust-w/eust-w/blob/main/README_TR.md"><span>Türkçe</span></a>
-    </p>
-    <p>🌟 Welcome to my corner of the coding universe! 🌟</p>
-    <h4 align="left">My Open Source Projects</h4>
-    <table align="center">
-        <tr>
-            <td><a href="https://github.com/eust-w/gopic">gopic</a> - Fast image hosting tool</td>
-            <td><a href="https://github.com/eust-w/esh">esh</a> - Simple cross-platform SSH link management tool</td>
-        </tr>
-        <tr>
-            <td><a href="https://github.com/eust-w/rsm">rsm</a> - RSS subscription function aggregation tool,</td>
-            <td><a href="https://github.com/eust-w/obsidian-image-auto-upload">obsidian image plugin</a> - Upload images from your clipboard obsidian plugin</td>
-        </tr>
-        <tr>
-            <td><a href="https://github.com/eust-w/qcow2file">qcow2file</a> - Generate qcow2 image from dockerfile</td>
-            <td><a href="https://github.com/eust-w/aiPlatform">ai with wechat</a> - WeChat chat robot that uses various AI</td>
-        </tr>
-        <tr>
-            <td><a href="https://github.com/eust-w/openai-chat-switch">chat-switch lib</a> - Chat embeddings & switch packages</td>
-            <td><a href="https://github.com/eust-w/govirsh">govirsh</a> - Virsh go package</td>
-        </tr>
-        <tr>
-            <td><a href="https://github.com/eust-w/ltrobot-mimiwechat">ai chat WeChat applet</a> - Ai chat with ltrobot</td>
-            <td><a href="https://github.com/eust-w/gnome-extension-wakwaka">gnome-extension-wakwaka</a> - Gnome-extension</td>
-        </tr>
-    </table>
+<div align="center">
+  <h2>Longtao Wu</h2>
+  <p><strong>AI systems builder working on agent-native developer tools, infrastructure automation, and practical AI products.</strong></p>
+  <p>
+    <a href="https://longtao.fun">Website</a> ·
+    <a href="https://huggingface.co/eustance">Hugging Face</a> ·
+    <a href="https://x.com/eustancewu">X</a> ·
+    <a href="README_CN.md">中文</a> ·
+    <a href="README_FR.md">Français</a> ·
+    <a href="README_RU.md">Русский</a> ·
+    <a href="README_AR.md">عربي</a> ·
+    <a href="README_JP.md">日本語</a> ·
+    <a href="README_PTBR.md">Português</a> ·
+    <a href="README_TR.md">Türkçe</a>
+  </p>
 </div>
+
+I build tools that make AI useful inside real engineering workflows: agents that can inspect and change codebases, automation around cloud and developer operations, and small utilities that remove repetitive work.
+
+### Current focus
+
+- Agent-native software engineering: Codex workflows, multi-repository capability search, automated verification, and evidence-driven code changes.
+- Practical AI tooling: model routing, AI code review, LLM experiments, and developer workflows that stay close to runnable products.
+- Developer infrastructure: Go and TypeScript CLIs for SSH, VM image building, cloud operations, and knowledge workflows.
+
+### Selected work
+
+| Area | Project | What it does |
+| --- | --- | --- |
+| AI agents | [kakashi](https://github.com/eust-w/kakashi) | Codex-powered system for searching GitHub capabilities, planning repository fusion, executing changes, and verifying the result. |
+| AI tooling | [ai_code_reviewer](https://github.com/eust-w/ai_code_reviewer) | LLM-based code review automation for GitHub, GitLab, and Gitea, with multi-model support. |
+| AI tooling | [openai-chat-switch](https://github.com/eust-w/openai-chat-switch) | Go package for chat embeddings and model/chat switching workflows. |
+| Learning systems | [little_language_model](https://github.com/eust-w/little_language_model) | Small language-model experiments and implementation notes. |
+| Developer tools | [esh](https://github.com/eust-w/esh) | Cross-platform SSH connection manager with encrypted credentials and cluster command execution. |
+| Infrastructure | [qcow2file](https://github.com/eust-w/qcow2file) | Builds qcow2 VM images from Dockerfile-like recipes. |
+| Knowledge workflow | [obsidian-image-auto-upload](https://github.com/eust-w/obsidian-image-auto-upload) | Obsidian plugin for automatically uploading pasted or dropped images to external storage. |
+
+### How I work
+
+- Prefer working systems over demos: real commands, real services, real verification.
+- Keep automation observable: logs, artifacts, failure modes, and reproducible steps matter.
+- Build small tools that compound into larger workflows.
+
+### Reach me
+
+I am interested in AI engineering, agent infrastructure, robotics and simulation tooling, developer productivity, and practical open-source systems.
+
+- Website: [longtao.fun](https://longtao.fun)
+- Hugging Face: [eustance](https://huggingface.co/eustance)
+- X: [@eustancewu](https://x.com/eustancewu)
