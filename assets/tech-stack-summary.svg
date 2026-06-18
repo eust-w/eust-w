@@ -1,0 +1,115 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Embodied AI Stack</title>
+  <desc id="desc">A technical stack summary for VLA, VLM, robotics brain architecture, simulation data, and runtime infrastructure.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050812"/>
+      <stop offset="0.5" stop-color="#0A1020"/>
+      <stop offset="1" stop-color="#030712"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="180" y1="450" x2="1420" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF"/>
+      <stop offset="0.35" stop-color="#A855F7"/>
+      <stop offset="0.7" stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" stroke="#FFFFFF" stroke-opacity="0.055"/>
+      <path d="M11 0V44M22 0V44M33 0V44M0 11H44M0 22H44M0 33H44" stroke="#FFFFFF" stroke-opacity="0.02"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="screen"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" rx="36" fill="url(#bg)"/>
+  <rect width="1600" height="900" rx="36" fill="url(#grid)"/>
+  <path d="M120 760C280 690 430 720 590 760C820 818 970 724 1128 666C1254 620 1362 630 1480 690" stroke="url(#flow)" stroke-opacity="0.25" stroke-width="3"/>
+  <path d="M100 164C264 236 448 232 640 174C850 110 1036 98 1248 160C1368 196 1448 194 1514 160" stroke="url(#flow)" stroke-opacity="0.2" stroke-width="3"/>
+
+  <text x="800" y="94" text-anchor="middle" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="58" font-weight="850">EMBODIED AI STACK</text>
+  <text x="800" y="142" text-anchor="middle" fill="#93C5FD" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="650">VLA / VLM / Robot Brain / Simulation Data / Runtime Infrastructure</text>
+
+  <g transform="translate(80 214)">
+    <rect width="270" height="500" rx="26" fill="#07111F" stroke="#00E5FF" stroke-width="2"/>
+    <text x="135" y="62" text-anchor="middle" fill="#E0F2FE" font-family="Inter, ui-sans-serif, system-ui" font-size="30" font-weight="800">PERCEPTION</text>
+    <text x="135" y="102" text-anchor="middle" fill="#22D3EE" font-family="Inter, ui-sans-serif, system-ui" font-size="34" font-weight="850">VLM</text>
+    <line x1="34" y1="132" x2="236" y2="132" stroke="#155E75"/>
+    <circle cx="135" cy="226" r="58" fill="#082F49" stroke="#38BDF8" stroke-width="2"/>
+    <path d="M82 226C114 178 156 178 188 226C156 274 114 274 82 226Z" stroke="#67E8F9" stroke-width="4" fill="none"/>
+    <circle cx="135" cy="226" r="18" fill="#00E5FF" fill-opacity="0.22" stroke="#A5F3FC" stroke-width="3"/>
+    <text x="38" y="344" fill="#E2E8F0" font-family="Inter, ui-sans-serif, system-ui" font-size="21" font-weight="650">Scene understanding</text>
+    <text x="38" y="388" fill="#E2E8F0" font-family="Inter, ui-sans-serif, system-ui" font-size="21" font-weight="650">Object grounding</text>
+    <text x="38" y="432" fill="#E2E8F0" font-family="Inter, ui-sans-serif, system-ui" font-size="21" font-weight="650">Affordance signals</text>
+    <text x="38" y="476" fill="#E2E8F0" font-family="Inter, ui-sans-serif, system-ui" font-size="21" font-weight="650">Multimodal tokens</text>
+  </g>
+
+  <g transform="translate(388 214)">
+    <rect width="270" height="500" rx="26" fill="#0B0A1F" stroke="#A855F7" stroke-width="2"/>
+    <text x="135" y="62" text-anchor="middle" fill="#F3E8FF" font-family="Inter, ui-sans-serif, system-ui" font-size="30" font-weight="800">POLICY</text>
+    <text x="135" y="102" text-anchor="middle" fill="#C084FC" font-family="Inter, ui-sans-serif, system-ui" font-size="34" font-weight="850">VLA</text>
+    <line x1="34" y1="132" x2="236" y2="132" stroke="#6B21A8"/>
+    <rect x="70" y="166" width="130" height="126" rx="20" fill="#1E1B4B" stroke="#C084FC"/>
+    <text x="135" y="218" text-anchor="middle" fill="#F5F3FF" font-family="Inter, ui-sans-serif, system-ui" font-size="28" font-weight="850">ACTION</text>
+    <text x="135" y="252" text-anchor="middle" fill="#DDD6FE" font-family="Inter, ui-sans-serif, system-ui" font-size="20" font-weight="700">MODEL</text>
+    <text x="38" y="344" fill="#E2E8F0" font-family="Inter, ui-sans-serif, system-ui" font-size="21" font-weight="650">Task planning</text>
+    <text x="38" y="388" fill="#E2E8F0" font-family="Inter, ui-sans-serif, system-ui" font-size="21" font-weight="650">Language to action</text>
+    <text x="38" y="432" fill="#E2E8F0" font-family="Inter, ui-sans-serif, system-ui" font-size="21" font-weight="650">Policy evaluation</text>
+    <text x="38" y="476" fill="#E2E8F0" font-family="Inter, ui-sans-serif, system-ui" font-size="21" font-weight="650">Safety constraints</text>
+  </g>
+
+  <g transform="translate(696 214)">
+    <rect width="270" height="500" rx="26" fill="#07180F" stroke="#22C55E" stroke-width="2"/>
+    <text x="135" y="62" text-anchor="middle" fill="#DCFCE7" font-family="Inter, ui-sans-serif, system-ui" font-size="30" font-weight="800">ROBOT</text>
+    <text x="135" y="102" text-anchor="middle" fill="#4ADE80" font-family="Inter, ui-sans-serif, system-ui" font-size="34" font-weight="850">BRAIN</text>
+    <line x1="34" y1="132" x2="236" y2="132" stroke="#166534"/>
+    <path d="M88 244C58 218 62 166 104 154C118 126 166 132 174 164C216 174 218 234 184 254C160 286 112 282 88 244Z" fill="#052E16" stroke="#86EFAC" stroke-width="3"/>
+    <path d="M104 154C118 184 118 220 102 262M142 136C126 184 130 234 154 278M174 164C156 190 154 228 184 254" stroke="#22C55E" stroke-opacity="0.72" stroke-width="2"/>
+    <text x="38" y="344" fill="#E2E8F0" font-family="Inter, ui-sans-serif, system-ui" font-size="21" font-weight="650">Big brain reasoning</text>
+    <text x="38" y="388" fill="#E2E8F0" font-family="Inter, ui-sans-serif, system-ui" font-size="21" font-weight="650">Small brain control</text>
+    <text x="38" y="432" fill="#E2E8F0" font-family="Inter, ui-sans-serif, system-ui" font-size="21" font-weight="650">Runtime feedback</text>
+    <text x="38" y="476" fill="#E2E8F0" font-family="Inter, ui-sans-serif, system-ui" font-size="21" font-weight="650">Embodied memory</text>
+  </g>
+
+  <g transform="translate(1004 214)">
+    <rect width="270" height="500" rx="26" fill="#1A1004" stroke="#F59E0B" stroke-width="2"/>
+    <text x="135" y="62" text-anchor="middle" fill="#FFEDD5" font-family="Inter, ui-sans-serif, system-ui" font-size="30" font-weight="800">SIMULATION</text>
+    <text x="135" y="102" text-anchor="middle" fill="#F59E0B" font-family="Inter, ui-sans-serif, system-ui" font-size="34" font-weight="850">DATA</text>
+    <line x1="34" y1="132" x2="236" y2="132" stroke="#92400E"/>
+    <path d="M60 250L135 190L210 250L135 310L60 250Z" fill="#451A03" stroke="#FDBA74" stroke-width="3"/>
+    <path d="M60 250V190L135 130L210 190V250M135 190V130M135 190V310" stroke="#F59E0B" stroke-opacity="0.68" stroke-width="2"/>
+    <text x="38" y="344" fill="#E2E8F0" font-family="Inter, ui-sans-serif, system-ui" font-size="21" font-weight="650">Real2sim assets</text>
+    <text x="38" y="388" fill="#E2E8F0" font-family="Inter, ui-sans-serif, system-ui" font-size="21" font-weight="650">Synthetic scenes</text>
+    <text x="38" y="432" fill="#E2E8F0" font-family="Inter, ui-sans-serif, system-ui" font-size="21" font-weight="650">Dataset curation</text>
+    <text x="38" y="476" fill="#E2E8F0" font-family="Inter, ui-sans-serif, system-ui" font-size="21" font-weight="650">Sim2real tests</text>
+  </g>
+
+  <g transform="translate(1312 214)">
+    <rect width="210" height="500" rx="26" fill="#06111D" stroke="#38BDF8" stroke-width="2"/>
+    <text x="105" y="62" text-anchor="middle" fill="#E0F2FE" font-family="Inter, ui-sans-serif, system-ui" font-size="28" font-weight="800">RUNTIME</text>
+    <text x="105" y="102" text-anchor="middle" fill="#38BDF8" font-family="Inter, ui-sans-serif, system-ui" font-size="32" font-weight="850">INFRA</text>
+    <line x1="28" y1="132" x2="182" y2="132" stroke="#075985"/>
+    <rect x="60" y="164" width="90" height="90" rx="22" fill="#082F49" stroke="#7DD3FC"/>
+    <path d="M105 186V232M82 209H128M90 192L120 226M120 192L90 226" stroke="#BAE6FD" stroke-width="4" stroke-linecap="round"/>
+    <text x="34" y="344" fill="#E2E8F0" font-family="Inter, ui-sans-serif, system-ui" font-size="20" font-weight="650">Deployment</text>
+    <text x="34" y="388" fill="#E2E8F0" font-family="Inter, ui-sans-serif, system-ui" font-size="20" font-weight="650">Telemetry</text>
+    <text x="34" y="432" fill="#E2E8F0" font-family="Inter, ui-sans-serif, system-ui" font-size="20" font-weight="650">Evaluation</text>
+    <text x="34" y="476" fill="#E2E8F0" font-family="Inter, ui-sans-serif, system-ui" font-size="20" font-weight="650">Ops tooling</text>
+  </g>
+
+  <g filter="url(#glow)">
+    <path d="M350 464H386" stroke="url(#flow)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M658 464H694" stroke="url(#flow)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M966 464H1002" stroke="url(#flow)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M1274 464H1310" stroke="url(#flow)" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <rect x="74" y="780" width="1448" height="62" rx="31" fill="#030712" stroke="#1E293B"/>
+  <text x="230" y="820" text-anchor="middle" fill="#67E8F9" font-family="Inter, ui-sans-serif, system-ui" font-size="24" font-weight="800">DATA FLOWS</text>
+  <text x="610" y="820" text-anchor="middle" fill="#C084FC" font-family="Inter, ui-sans-serif, system-ui" font-size="24" font-weight="800">TRAINING FLOWS</text>
+  <text x="1030" y="820" text-anchor="middle" fill="#86EFAC" font-family="Inter, ui-sans-serif, system-ui" font-size="24" font-weight="800">FEEDBACK LOOPS</text>
+  <text x="1370" y="820" text-anchor="middle" fill="#FBBF24" font-family="Inter, ui-sans-serif, system-ui" font-size="24" font-weight="800">DEPLOYMENT</text>
+
+  <rect x="0.5" y="0.5" width="1599" height="899" rx="35.5" stroke="#FFFFFF" stroke-opacity="0.1"/>
+</svg>

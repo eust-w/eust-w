@@ -1,0 +1,82 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Personal Robotics Style Card</title>
+  <desc id="desc">A personal style card for a robotics and embodied AI engineer, showing robot brain architecture, simulation data, and VLA VLM systems.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1024" y2="1024" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060914"/>
+      <stop offset="0.52" stop-color="#0A1120"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="124" y1="154" x2="900" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF"/>
+      <stop offset="0.45" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(512 380) rotate(90) scale(360)">
+      <stop stop-color="#38BDF8" stop-opacity="0.26"/>
+      <stop offset="0.55" stop-color="#7C3AED" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse">
+      <path d="M52 0H0V52" stroke="#FFFFFF" stroke-opacity="0.055"/>
+      <path d="M13 0V52M26 0V52M39 0V52M0 13H52M0 26H52M0 39H52" stroke="#FFFFFF" stroke-opacity="0.018"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="screen"/>
+    </filter>
+  </defs>
+
+  <rect width="1024" height="1024" rx="42" fill="url(#bg)"/>
+  <rect width="1024" height="1024" rx="42" fill="url(#grid)"/>
+  <rect width="1024" height="1024" rx="42" fill="url(#halo)"/>
+
+  <circle cx="512" cy="338" r="220" stroke="url(#accent)" stroke-opacity="0.32" stroke-width="2"/>
+  <circle cx="512" cy="338" r="154" stroke="#38BDF8" stroke-opacity="0.18" stroke-width="2"/>
+  <path d="M200 736C318 664 420 666 512 736C618 814 734 788 854 698" stroke="url(#accent)" stroke-opacity="0.38" stroke-width="3"/>
+  <path d="M164 230C276 284 390 278 512 224C638 168 762 174 884 238" stroke="url(#accent)" stroke-opacity="0.24" stroke-width="3"/>
+
+  <g transform="translate(376 196)" filter="url(#glow)">
+    <path d="M136 22C202 22 256 74 256 140C256 206 202 258 136 258C70 258 16 206 16 140C16 74 70 22 136 22Z" fill="#0F172A" stroke="#67E8F9" stroke-width="4"/>
+    <path d="M86 70C66 90 56 112 56 140C56 176 72 204 104 220M186 70C206 90 216 112 216 140C216 176 200 204 168 220" stroke="#22D3EE" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="96" cy="134" r="12" fill="#00E5FF"/>
+    <circle cx="176" cy="134" r="12" fill="#A78BFA"/>
+    <path d="M94 184C116 204 156 204 178 184" stroke="#22C55E" stroke-width="7" stroke-linecap="round"/>
+    <path d="M136 22V-24M136-24H76M136-24H196" stroke="#38BDF8" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="76" cy="-24" r="9" fill="#22C55E"/>
+    <circle cx="196" cy="-24" r="9" fill="#7C3AED"/>
+  </g>
+
+  <g transform="translate(170 516)">
+    <rect x="0" y="0" width="684" height="268" rx="28" fill="#020617" fill-opacity="0.72" stroke="url(#accent)" stroke-opacity="0.56"/>
+    <text x="342" y="64" text-anchor="middle" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="40" font-weight="850">LONGTAO WU</text>
+    <text x="342" y="108" text-anchor="middle" fill="#BAE6FD" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="23" font-weight="700">VLA / VLM / ROBOTICS / SIM DATA</text>
+    <g transform="translate(56 152)">
+      <rect x="0" y="0" width="150" height="54" rx="27" fill="#082F49" stroke="#38BDF8"/>
+      <text x="75" y="35" text-anchor="middle" fill="#E0F2FE" font-family="Inter, ui-sans-serif, system-ui" font-size="18" font-weight="800">PERCEPTION</text>
+      <rect x="176" y="0" width="120" height="54" rx="27" fill="#2E1065" stroke="#A78BFA"/>
+      <text x="236" y="35" text-anchor="middle" fill="#F3E8FF" font-family="Inter, ui-sans-serif, system-ui" font-size="18" font-weight="800">POLICY</text>
+      <rect x="322" y="0" width="124" height="54" rx="27" fill="#052E16" stroke="#4ADE80"/>
+      <text x="384" y="35" text-anchor="middle" fill="#DCFCE7" font-family="Inter, ui-sans-serif, system-ui" font-size="18" font-weight="800">BRAIN</text>
+      <rect x="472" y="0" width="148" height="54" rx="27" fill="#431407" stroke="#FB923C"/>
+      <text x="546" y="35" text-anchor="middle" fill="#FFEDD5" font-family="Inter, ui-sans-serif, system-ui" font-size="18" font-weight="800">SIM DATA</text>
+    </g>
+  </g>
+
+  <g opacity="0.82">
+    <rect x="96" y="238" width="206" height="150" rx="22" fill="#06111D" stroke="#38BDF8" stroke-opacity="0.55"/>
+    <path d="M126 336H276M126 304H276M126 272H276" stroke="#38BDF8" stroke-opacity="0.2"/>
+    <path d="M138 342L178 284L214 312L250 254" stroke="#22C55E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="178" cy="284" r="6" fill="#22C55E"/>
+    <circle cx="214" cy="312" r="6" fill="#F59E0B"/>
+    <circle cx="250" cy="254" r="6" fill="#A78BFA"/>
+
+    <rect x="722" y="238" width="206" height="150" rx="22" fill="#06111D" stroke="#A78BFA" stroke-opacity="0.55"/>
+    <path d="M764 332L824 270L886 332M824 270V354" stroke="#C084FC" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="824" cy="270" r="10" fill="#A78BFA"/>
+    <circle cx="764" cy="332" r="8" fill="#00E5FF"/>
+    <circle cx="886" cy="332" r="8" fill="#22C55E"/>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1023" height="1023" rx="41.5" stroke="#FFFFFF" stroke-opacity="0.1"/>
+</svg>

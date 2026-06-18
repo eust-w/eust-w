@@ -32,6 +32,10 @@
 
 I work on the stack that makes robots understand, plan, and act in the real world: multimodal perception, embodied policy, robot brain architecture, simulation data engines, and runtime infrastructure.
 
+<p align="center">
+  <img src="./assets/tech-stack-summary.svg" alt="Embodied AI stack summary" width="100%" />
+</p>
+
 ```txt
 Perception          VLMs, multimodal grounding, scene understanding
 Policy             VLA models, robot action heads, task-level planning
@@ -83,6 +87,10 @@ My public repositories also include AI agent infrastructure, developer tools, mo
 | VLA / VLM | policy learning, scene semantics, action grounding, evaluation |
 | Simulation data | synthetic scenes, real2sim assets, domain randomization, dataset QA |
 | AI infrastructure | agents, code automation, model routing, workflow verification |
+
+<p align="center">
+  <img src="./assets/personal-style-card.svg" alt="Longtao Wu personal robotics style card" width="560" />
+</p>
 
 ### Current Direction
 
