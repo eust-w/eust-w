@@ -1,0 +1,99 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">VLA VLM Robotics Banner</title>
+  <desc id="desc">A futuristic robotics and embodied AI banner with simulation grids, neural circuits, and robot brain architecture.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#070A13"/>
+      <stop offset="0.45" stop-color="#0D1220"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="240" y1="42" x2="1040" y2="378" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00E5FF"/>
+      <stop offset="0.5" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="160" y1="78" x2="1120" y2="342" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0.78"/>
+    </linearGradient>
+    <radialGradient id="scan" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(640 214) rotate(90) scale(220 600)">
+      <stop stop-color="#38BDF8" stop-opacity="0.22"/>
+      <stop offset="0.65" stop-color="#7C3AED" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.06 0 0 0 0 0.85 0 0 0 0 1 0 0 0 0.7 0"/>
+      <feBlend in="SourceGraphic" mode="screen"/>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="1"/>
+      <path d="M12 0V48M24 0V48M36 0V48M0 12H48M0 24H48M0 36H48" stroke="#FFFFFF" stroke-opacity="0.025" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="28" fill="url(#grid)"/>
+  <rect width="1280" height="420" rx="28" fill="url(#scan)"/>
+
+  <path d="M106 334C238 270 338 278 480 318C640 363 796 357 930 294C1028 248 1112 232 1190 258" stroke="url(#cyan)" stroke-opacity="0.38" stroke-width="2"/>
+  <path d="M90 94C218 138 330 140 474 100C650 52 804 48 974 98C1054 122 1120 126 1196 108" stroke="url(#cyan)" stroke-opacity="0.32" stroke-width="2"/>
+
+  <g opacity="0.35">
+    <circle cx="146" cy="108" r="3" fill="#00E5FF"/>
+    <circle cx="240" cy="306" r="3" fill="#22C55E"/>
+    <circle cx="1048" cy="96" r="3" fill="#7C3AED"/>
+    <circle cx="1128" cy="298" r="3" fill="#00E5FF"/>
+    <path d="M146 108L240 306L420 250L576 308L760 120L1048 96L1128 298" stroke="#93C5FD" stroke-opacity="0.45"/>
+  </g>
+
+  <rect x="146" y="64" width="988" height="292" rx="24" fill="url(#panel)" stroke="url(#cyan)" stroke-opacity="0.45"/>
+  <rect x="166" y="84" width="948" height="252" rx="18" stroke="#FFFFFF" stroke-opacity="0.08"/>
+
+  <g transform="translate(202 118)" filter="url(#softGlow)">
+    <path d="M78 30C116 30 148 60 148 99C148 138 116 168 78 168C40 168 8 138 8 99C8 60 40 30 78 30Z" fill="#0F172A" stroke="#38BDF8" stroke-width="3"/>
+    <path d="M49 56C38 66 32 80 32 98C32 118 41 135 58 145M107 55C119 66 125 80 125 99C125 119 116 136 99 146" stroke="#22D3EE" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="58" cy="94" r="8" fill="#00E5FF"/>
+    <circle cx="100" cy="94" r="8" fill="#A78BFA"/>
+    <path d="M54 126C68 137 89 137 103 126" stroke="#22C55E" stroke-width="5" stroke-linecap="round"/>
+    <path d="M78 30V10M78 10H116M78 10H40" stroke="#38BDF8" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="40" cy="10" r="6" fill="#22C55E"/>
+    <circle cx="116" cy="10" r="6" fill="#7C3AED"/>
+  </g>
+
+  <g transform="translate(398 96)">
+    <text x="0" y="62" fill="#E5F7FF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="62" font-weight="800" letter-spacing="1">VLA / VLM</text>
+    <text x="0" y="114" fill="#C7D2FE" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="30" font-weight="650">Robot Brain x Embodied Simulation</text>
+    <text x="0" y="160" fill="#94A3B8" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="500">vision-language-action models  |  multimodal reasoning  |  sim data engines</text>
+
+    <g transform="translate(0 198)">
+      <rect x="0" y="0" width="146" height="40" rx="20" fill="#082F49" stroke="#38BDF8" stroke-opacity="0.8"/>
+      <text x="73" y="26" text-anchor="middle" fill="#BAE6FD" font-family="Inter, ui-sans-serif, system-ui" font-size="15" font-weight="700">PERCEPTION</text>
+      <rect x="166" y="0" width="116" height="40" rx="20" fill="#2E1065" stroke="#A78BFA" stroke-opacity="0.8"/>
+      <text x="224" y="26" text-anchor="middle" fill="#DDD6FE" font-family="Inter, ui-sans-serif, system-ui" font-size="15" font-weight="700">POLICY</text>
+      <rect x="302" y="0" width="132" height="40" rx="20" fill="#052E16" stroke="#4ADE80" stroke-opacity="0.8"/>
+      <text x="368" y="26" text-anchor="middle" fill="#BBF7D0" font-family="Inter, ui-sans-serif, system-ui" font-size="15" font-weight="700">SIM DATA</text>
+      <rect x="454" y="0" width="142" height="40" rx="20" fill="#431407" stroke="#FB923C" stroke-opacity="0.8"/>
+      <text x="525" y="26" text-anchor="middle" fill="#FED7AA" font-family="Inter, ui-sans-serif, system-ui" font-size="15" font-weight="700">REAL ROBOTS</text>
+    </g>
+  </g>
+
+  <g transform="translate(912 126)" opacity="0.9">
+    <rect x="0" y="0" width="150" height="150" rx="18" fill="#020617" stroke="#334155"/>
+    <path d="M16 122L48 80L78 98L108 44L134 122H16Z" fill="#0EA5E9" fill-opacity="0.14" stroke="#38BDF8" stroke-width="2"/>
+    <path d="M18 28H132M18 52H132M18 76H132M18 100H132" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <path d="M38 18V132M66 18V132M94 18V132M122 18V132" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <circle cx="48" cy="80" r="5" fill="#22C55E"/>
+    <circle cx="78" cy="98" r="5" fill="#FACC15"/>
+    <circle cx="108" cy="44" r="5" fill="#A78BFA"/>
+  </g>
+
+  <g opacity="0.65">
+    <path d="M764 248C796 224 836 224 868 248" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+    <path d="M784 272C804 258 828 258 848 272" stroke="#22C55E" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="816" cy="206" r="10" fill="#00E5FF"/>
+    <path d="M816 216V306" stroke="#00E5FF" stroke-width="2"/>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1279" height="419" rx="27.5" stroke="#FFFFFF" stroke-opacity="0.12"/>
+</svg>
