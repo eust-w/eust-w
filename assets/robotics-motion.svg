@@ -1,0 +1,121 @@
+<svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Longtao Wu animated robotics profile banner</title>
+  <desc id="desc">Animated VLA VLM robotics banner with robot brain, simulation grid, moving particles, and runtime terminal.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050816"/>
+      <stop offset="0.48" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="170" y1="72" x2="1130" y2="448" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.48" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <radialGradient id="pulse" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(772 236) rotate(90) scale(210 420)">
+      <stop stop-color="#38BDF8" stop-opacity="0.28"/>
+      <stop offset="0.55" stop-color="#7C3AED" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-25%" y="-25%" width="150%" height="150%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="screen"/>
+    </filter>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M46 0H0V46" stroke="#FFFFFF" stroke-opacity="0.06"/>
+      <path d="M11.5 0V46M23 0V46M34.5 0V46M0 11.5H46M0 23H46M0 34.5H46" stroke="#FFFFFF" stroke-opacity="0.025"/>
+    </pattern>
+    <style>
+      .grid { animation: drift 14s linear infinite; }
+      .scan { animation: scan 5.4s ease-in-out infinite; }
+      .bot { animation: floatBot 4s ease-in-out infinite; transform-origin: 256px 238px; }
+      .orbit { animation: spin 16s linear infinite; transform-origin: 256px 238px; }
+      .node-a { animation: blink 1.8s ease-in-out infinite; }
+      .node-b { animation: blink 2.2s ease-in-out infinite .3s; }
+      .node-c { animation: blink 2.6s ease-in-out infinite .6s; }
+      .wave { stroke-dasharray: 8 12; animation: dash 5s linear infinite; }
+      .prompt { animation: caret 1s step-end infinite; }
+      .particle { animation: particle 6s ease-in-out infinite; }
+      .particle.two { animation-delay: -1.4s; }
+      .particle.three { animation-delay: -2.8s; }
+      .particle.four { animation-delay: -4.2s; }
+      @keyframes drift { from { transform: translate(0,0); } to { transform: translate(46px,46px); } }
+      @keyframes scan { 0%,30% { transform: translateX(-360px) skewX(-12deg); opacity: 0; } 45% { opacity: 1; } 100% { transform: translateX(1160px) skewX(-12deg); opacity: 0; } }
+      @keyframes floatBot { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
+      @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      @keyframes blink { 0%,100% { opacity: .45; } 50% { opacity: 1; } }
+      @keyframes dash { to { stroke-dashoffset: -80; } }
+      @keyframes caret { 0%,48% { opacity: 1; } 49%,100% { opacity: 0; } }
+      @keyframes particle { 0%,100% { transform: translate(0,0) scale(1); opacity: .42; } 50% { transform: translate(24px,-26px) scale(1.35); opacity: .95; } }
+    </style>
+  </defs>
+
+  <rect width="1280" height="520" rx="32" fill="url(#bg)"/>
+  <rect class="grid" x="-46" y="-46" width="1372" height="612" fill="url(#grid)"/>
+  <rect width="1280" height="520" rx="32" fill="url(#pulse)"/>
+  <path d="M90 392C212 314 352 326 498 388C654 454 822 432 960 350C1046 299 1138 292 1210 330" stroke="url(#accent)" stroke-opacity="0.42" stroke-width="3" class="wave"/>
+  <path d="M82 116C220 172 362 164 514 100C676 32 844 48 1006 116C1086 150 1156 154 1214 136" stroke="url(#accent)" stroke-opacity="0.28" stroke-width="2" class="wave"/>
+  <rect class="scan" x="0" y="-80" width="130" height="680" fill="#67E8F9" fill-opacity="0.12"/>
+
+  <g class="particle" filter="url(#glow)">
+    <circle cx="132" cy="126" r="5" fill="#22D3EE"/>
+    <circle cx="1118" cy="118" r="5" fill="#A78BFA"/>
+    <circle cx="1188" cy="398" r="5" fill="#22C55E"/>
+  </g>
+  <g class="particle two" filter="url(#glow)">
+    <circle cx="176" cy="382" r="4" fill="#F59E0B"/>
+    <circle cx="1046" cy="424" r="4" fill="#22D3EE"/>
+  </g>
+  <g class="particle three" filter="url(#glow)">
+    <circle cx="690" cy="84" r="4" fill="#22C55E"/>
+    <circle cx="784" cy="448" r="4" fill="#A78BFA"/>
+  </g>
+  <g class="particle four" filter="url(#glow)">
+    <circle cx="456" cy="450" r="4" fill="#FB7185"/>
+    <circle cx="1016" cy="236" r="4" fill="#38BDF8"/>
+  </g>
+
+  <g transform="translate(70 54)">
+    <circle class="orbit" cx="256" cy="238" r="160" stroke="url(#accent)" stroke-opacity="0.38" stroke-width="2" stroke-dasharray="6 11"/>
+    <circle class="orbit" cx="256" cy="238" r="108" stroke="#38BDF8" stroke-opacity="0.18" stroke-width="2" stroke-dasharray="4 12"/>
+    <g class="bot" filter="url(#glow)">
+      <path d="M256 86V42M256 42H190M256 42H322" stroke="#38BDF8" stroke-width="6" stroke-linecap="round"/>
+      <circle class="node-a" cx="190" cy="42" r="11" fill="#22C55E"/>
+      <circle class="node-b" cx="322" cy="42" r="11" fill="#8B5CF6"/>
+      <rect x="138" y="86" width="236" height="228" rx="74" fill="#0F172A" stroke="#67E8F9" stroke-width="5"/>
+      <path d="M198 146C174 168 162 198 162 236C162 276 180 306 216 326M314 146C338 168 350 198 350 236C350 276 332 306 296 326" stroke="#22D3EE" stroke-width="7" stroke-linecap="round"/>
+      <circle class="node-a" cx="210" cy="222" r="15" fill="#22D3EE"/>
+      <circle class="node-b" cx="302" cy="222" r="15" fill="#A78BFA"/>
+      <path d="M208 276C232 300 280 300 304 276" stroke="#22C55E" stroke-width="8" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <g transform="translate(454 92)">
+    <text x="0" y="56" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="58" font-weight="850">Longtao Wu</text>
+    <text x="0" y="108" fill="#BAE6FD" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="30" font-weight="760">VLA / VLM Robotics x Simulation Data</text>
+    <text x="0" y="150" fill="#94A3B8" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="520">robot brain architecture | multimodal grounding | real2sim loops | runtime systems</text>
+
+    <g transform="translate(0 190)">
+      <rect width="570" height="158" rx="18" fill="#020617" fill-opacity="0.82" stroke="#334155"/>
+      <rect width="570" height="38" rx="18" fill="#0F172A"/>
+      <circle cx="24" cy="19" r="5" fill="#FB7185"/>
+      <circle cx="44" cy="19" r="5" fill="#FBBF24"/>
+      <circle cx="64" cy="19" r="5" fill="#22C55E"/>
+      <text x="88" y="25" fill="#BAE6FD" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="700">robot-runtime.console</text>
+      <text x="26" y="72" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">$ boot --stack vla-vlm --mode embodied</text>
+      <text x="26" y="104" fill="#CBD5E1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">&gt; perception=vlm  policy=vla  sim=real2sim</text>
+      <text x="26" y="136" fill="#86EFAC" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">&gt; status=online  loop=closed</text>
+      <rect class="prompt" x="314" y="122" width="9" height="22" fill="#67E8F9"/>
+    </g>
+  </g>
+
+  <g transform="translate(1024 322)" opacity="0.92">
+    <rect x="0" y="0" width="146" height="86" rx="16" fill="#06111D" stroke="#22C55E" stroke-opacity="0.62"/>
+    <path d="M22 58L48 34L74 48L108 20L126 44" stroke="#22C55E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle class="node-a" cx="48" cy="34" r="6" fill="#22C55E"/>
+    <circle class="node-b" cx="74" cy="48" r="6" fill="#FBBF24"/>
+    <circle class="node-c" cx="108" cy="20" r="6" fill="#A78BFA"/>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1279" height="519" rx="31.5" stroke="#FFFFFF" stroke-opacity="0.12"/>
+</svg>

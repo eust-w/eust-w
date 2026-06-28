@@ -1,105 +1,100 @@
-<p align="center">
-  <img src="./assets/vla-vlm-robotics-banner.svg" alt="VLA VLM Robotics banner" width="100%" />
-</p>
-
-<h1 align="center">Longtao Wu</h1>
-
-<p align="center">
-  Building robot intelligence across VLA, VLM, simulation data, and embodied AI systems.
-</p>
-
-<p align="center">
-  <a href="https://longtao.fun">Website</a> ·
-  <a href="https://huggingface.co/eustance">Hugging Face</a> ·
-  <a href="https://x.com/eustancewu">X</a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/eust-w?tab=repositories">
-    <img alt="Repositories" src="https://img.shields.io/badge/Robotics-Systems-00E5FF?style=for-the-badge&labelColor=080B12" />
+<div align="center">
+  <img src="./assets/robotics-motion.svg" alt="Animated VLA VLM robotics banner" width="100%" />
+  <br />
+  <br />
+  <a href="https://longtao.fun">
+    <img src="cat.webp" alt="Longtao cat" width="108" />
   </a>
-  <a href="https://github.com/eust-w?tab=stars">
-    <img alt="Research and engineering" src="https://img.shields.io/badge/VLA%20%2B%20VLM-Embodied%20AI-7C3AED?style=for-the-badge&labelColor=080B12" />
-  </a>
-  <a href="https://github.com/eust-w">
-    <img alt="Simulation data" src="https://img.shields.io/badge/Sim%20Data-Real2Sim%20Pipelines-22C55E?style=for-the-badge&labelColor=080B12" />
-  </a>
-</p>
+  <h1>Longtao Wu</h1>
+  <p><strong>VLA / VLM robotics builder working on robot brain architecture, simulation data, Real2Sim pipelines, and embodied AI runtime systems.</strong></p>
+  <p><strong>机器人大小脑 · 多模态感知 · 仿真数据 · Real2Sim · 可观测运行时</strong></p>
+  <p>
+    <a href="https://longtao.fun">Website</a> ·
+    <a href="https://huggingface.co/eustance">Hugging Face</a> ·
+    <a href="https://x.com/eustancewu">X</a> ·
+    <a href="README_CN.md">中文</a> ·
+    <a href="README_FR.md">Français</a> ·
+    <a href="README_RU.md">Русский</a> ·
+    <a href="README_AR.md">عربي</a> ·
+    <a href="README_JP.md">日本語</a> ·
+    <a href="README_PTBR.md">Português</a> ·
+    <a href="README_TR.md">Türkçe</a>
+  </p>
+  <p>
+    <img alt="VLA VLM" src="https://img.shields.io/badge/VLA%20%2F%20VLM-Embodied%20AI-22D3EE?style=for-the-badge&labelColor=020617" />
+    <img alt="Robot brain" src="https://img.shields.io/badge/Robot%20Brain-Big%20Brain%20%2B%20Small%20Brain-8B5CF6?style=for-the-badge&labelColor=020617" />
+    <img alt="Simulation data" src="https://img.shields.io/badge/Sim%20Data-Real2Sim%20Loops-22C55E?style=for-the-badge&labelColor=020617" />
+  </p>
+</div>
 
----
+```txt
+robot-runtime.console
+$ boot --stack vla-vlm --mode embodied
+> perception=vlm  policy=vla  sim=real2sim
+> brain=planner+controller  data=observable
+> status=online  latency=adaptive  loop=closed
+```
 
 ### Focus
 
-I work on the stack that makes robots understand, plan, and act in the real world: multimodal perception, embodied policy, robot brain architecture, simulation data engines, and runtime infrastructure.
+I build the stack behind robot intelligence: multimodal perception, VLA policy learning, robot big brain / small brain architecture, simulation data engines, Real2Sim assets, and runtime infrastructure that makes behavior inspectable.
+
+中文简述：我做 VLA / VLM 机器人系统，从多模态感知、策略学习、机器人大小脑，到仿真数据、Real2Sim 资产和真实运行时闭环。
 
 <p align="center">
   <img src="./assets/tech-stack-summary.svg" alt="Embodied AI stack summary" width="100%" />
 </p>
 
-```txt
-Perception          VLMs, multimodal grounding, scene understanding
-Policy             VLA models, robot action heads, task-level planning
-Embodiment         robot "big brain / small brain" architecture
-Simulation Data    synthetic data, real2sim, sim2real validation loops
-Infrastructure     data engines, evaluation, deployment, robot runtime tooling
-```
-
-### What I Am Building Toward
+### Moving System Map
 
 ```mermaid
 flowchart LR
   A[World Data] --> B[Simulation Engine]
   B --> C[Embodied Dataset]
-  C --> D[VLM World Understanding]
+  C --> D[VLM World Model]
   D --> E[VLA Policy]
-  E --> F[Robot Brain]
-  F --> G[Motion / Control]
+  E --> F[Robot Big Brain]
+  F --> G[Small Brain Runtime]
   G --> H[Real Robot Feedback]
   H --> A
 
-  style A fill:#101828,stroke:#00e5ff,color:#ffffff
-  style B fill:#101828,stroke:#7c3aed,color:#ffffff
-  style C fill:#101828,stroke:#22c55e,color:#ffffff
-  style D fill:#101828,stroke:#f97316,color:#ffffff
-  style E fill:#101828,stroke:#f43f5e,color:#ffffff
-  style F fill:#101828,stroke:#38bdf8,color:#ffffff
-  style G fill:#101828,stroke:#a3e635,color:#ffffff
-  style H fill:#101828,stroke:#facc15,color:#ffffff
+  style A fill:#020617,stroke:#22d3ee,color:#ffffff
+  style B fill:#020617,stroke:#8b5cf6,color:#ffffff
+  style C fill:#020617,stroke:#22c55e,color:#ffffff
+  style D fill:#020617,stroke:#f59e0b,color:#ffffff
+  style E fill:#020617,stroke:#fb7185,color:#ffffff
+  style F fill:#020617,stroke:#38bdf8,color:#ffffff
+  style G fill:#020617,stroke:#a3e635,color:#ffffff
+  style H fill:#020617,stroke:#facc15,color:#ffffff
 ```
 
-### Engineering Interests
-
-- Vision-language-action models for robot skills and generalist policies
-- VLM-based scene parsing, affordance reasoning, and instruction grounding
-- Robot brain architecture: high-level cognition plus low-level control/runtime
-- Large-scale simulation data generation, curation, replay, and evaluation
-- Real2sim asset pipelines, digital twins, domain randomization, and sim2real tests
-- Tooling that turns research prototypes into inspectable, repeatable systems
-
-### Selected Work Surface
-
-My public repositories also include AI agent infrastructure, developer tools, model routing, code review automation, and knowledge workflows. Those systems are useful building blocks for robotics work because embodied AI needs the same discipline: traceable data, reproducible evaluation, observable runtime behavior, and reliable deployment.
+### What Is Running In My Head
 
 | Layer | Direction |
 | --- | --- |
-| Robot big brain | multimodal planning, world understanding, instruction grounding |
-| Robot small brain | motion/runtime orchestration, control adapters, execution feedback |
-| VLA / VLM | policy learning, scene semantics, action grounding, evaluation |
-| Simulation data | synthetic scenes, real2sim assets, domain randomization, dataset QA |
+| Robot big brain | multimodal planning, instruction grounding, memory, tool use |
+| Robot small brain | motion/runtime orchestration, controller adapters, execution feedback |
+| VLA / VLM | scene semantics, action grounding, policy learning, evaluation |
+| Simulation data | synthetic scenes, Real2Sim assets, domain randomization, dataset QA |
 | AI infrastructure | agents, code automation, model routing, workflow verification |
 
 <p align="center">
   <img src="./assets/personal-style-card.svg" alt="Longtao Wu personal robotics style card" width="560" />
 </p>
 
-### Current Direction
+### Selected Work Surface
 
-I am especially interested in systems where:
+My public repositories include robotics-adjacent AI infrastructure, developer tools, model routing, code review automation, knowledge workflows, and simulation/product systems. I care about systems that can be observed, debugged, reproduced, and improved instead of only looking impressive in a demo.
 
-- simulation produces data that is good enough to train or evaluate robot policies
-- VLMs provide semantic world models instead of just image captions
-- VLA policies connect language goals to executable robot actions
-- runtime infrastructure makes robot behavior observable, debuggable, and reproducible
+| Area | Project | What it does |
+| --- | --- | --- |
+| AI agents | [kakashi](https://github.com/eust-w/kakashi) | Codex-powered system for searching GitHub capabilities, planning repository fusion, executing changes, and verifying the result. |
+| AI tooling | [ai_code_reviewer](https://github.com/eust-w/ai_code_reviewer) | LLM-based code review automation for GitHub, GitLab, and Gitea, with multi-model support. |
+| Model routing | [openai-chat-switch](https://github.com/eust-w/openai-chat-switch) | Go package for chat embeddings and model/chat switching workflows. |
+| Learning systems | [little_language_model](https://github.com/eust-w/little_language_model) | Small language-model experiments and implementation notes. |
+| Developer tools | [esh](https://github.com/eust-w/esh) | Cross-platform SSH connection manager with encrypted credentials and cluster command execution. |
+| Infrastructure | [qcow2file](https://github.com/eust-w/qcow2file) | Builds qcow2 VM images from Dockerfile-like recipes. |
+| Knowledge workflow | [obsidian-image-auto-upload](https://github.com/eust-w/obsidian-image-auto-upload) | Obsidian plugin for automatically uploading pasted or dropped images to external storage. |
 
 ### Tech Surface
 
@@ -125,8 +120,16 @@ I am especially interested in systems where:
   <img alt="Contribution streak" src="https://streak-stats.demolab.com?user=eust-w&theme=tokyonight&hide_border=true" />
 </p>
 
+<p align="center">
+  <img src="1.gif" alt="Animated coding desk at sunset" width="760" />
+</p>
+
 ---
 
 <p align="center">
+  <a href="https://longtao.fun">
+    <img src="cat.webp" alt="Longtao cat" width="72" />
+  </a>
+  <br />
   <b>VLA / VLM / Robotics / Simulation Data / Embodied AI</b>
 </p>
