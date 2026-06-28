@@ -39,8 +39,6 @@ $ boot --stack vla-vlm --mode embodied
 
 I build the stack behind robot intelligence: multimodal perception, VLA policy learning, robot big brain / small brain architecture, simulation data engines, Real2Sim assets, and runtime infrastructure that makes behavior inspectable.
 
-中文简述：我做 VLA / VLM 机器人系统，从多模态感知、策略学习、机器人大小脑，到仿真数据、Real2Sim 资产和真实运行时闭环。
-
 <p align="center">
   <img src="./assets/tech-stack-summary.svg" alt="Embodied AI stack summary" width="100%" />
 </p>
