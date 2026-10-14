@@ -1,0 +1,49 @@
+{
+  "featured": [
+    "agentic-embedded-lab",
+    "amd-bigym-3dgs-rocm",
+    "WorldSpec",
+    "robodata",
+    "Real2Motrix",
+    "superscience"
+  ],
+  "groups": [
+    [
+      "camera-undistortion",
+      "amdcompetition"
+    ],
+    [
+      "esm2agent",
+      "kakashi",
+      "ai_code_reviewer"
+    ],
+    [
+      "esh",
+      "qcow2file",
+      "keydesk",
+      "json_filter"
+    ],
+    [
+      "studyfit-atlas",
+      "EmboPlot",
+      "content-publisher",
+      "qmulator"
+    ],
+    [
+      "openai-chat-switch",
+      "little_language_model",
+      "obsidian-image-auto-upload"
+    ]
+  ],
+  "languages": [
+    "README.md",
+    "README_CN.md",
+    "README_FR.md",
+    "README_RU.md",
+    "README_AR.md",
+    "README_JP.md",
+    "README_PTBR.md",
+    "README_TR.md"
+  ],
+  "scope": "Public project portfolio; each repository owns its integration, validation and licensing claims."
+}
