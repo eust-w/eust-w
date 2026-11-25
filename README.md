@@ -71,3 +71,5 @@ Project questions and contributions are welcome in the relevant repository’s I
 ---
 
 <p align="center"><img src="cat.webp" alt="Longtao's cat illustration" width="56" /><br /><sub>Technology for good · Robotics · Agents · Research tooling</sub></p>
+
+<sub>Banner scene: "Photo Studio Loft Hall" backplate from [Poly Haven](https://polyhaven.com/a/photo_studio_loft_hall), CC0.</sub>
