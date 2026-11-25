@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://eust-w.github.io/3d-profile/"><img src="assets/hero-3d.svg" alt="Longtao Wu — Embodied AI × AI4AI" width="100%"></a>
+<a href="https://eust-w.github.io/3d-profile/"><img src="assets/hero-loop.webp" alt="Longtao Wu — Embodied AI × AI4AI" width="100%"></a>
 
 <a href="https://eust-w.github.io/3d-profile/"><img src="https://img.shields.io/badge/ENTER-3D_PROFILE-5ef0ff?style=for-the-badge&labelColor=0b1630" alt="Interactive 3D profile"></a>
 <a href="https://longtao.fun"><img src="https://img.shields.io/badge/WEBSITE-longtao.fun-ff5fa8?style=for-the-badge&labelColor=0b1630" alt="Website"></a>
@@ -30,4 +30,4 @@ Project questions and contributions are welcome in the relevant repository’s I
 
 <p align="center"><img src="cat.webp" alt="Longtao's cat illustration" width="56" /><br /><sub>Technology for good · Robotics · Agents · Research tooling</sub></p>
 
-<sub>Banner scene: "Photo Studio Loft Hall" backplate from [Poly Haven](https://polyhaven.com/a/photo_studio_loft_hall), CC0.</sub>
+<sub>Banner footage: Figure AI official media (figure.ai).</sub>
