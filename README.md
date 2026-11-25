@@ -1,42 +1,72 @@
 <div align="center">
-  <a href="https://eust-w.github.io/3d-profile/"><img src="assets/hero-3d.svg" alt="Longtao Wu — Embodied AI × AI4AI" width="100%" /></a>
-  <p><a href="https://eust-w.github.io/3d-profile/"><b>🌐 Interactive 3D profile</b></a> · <a href="https://longtao.fun">Website</a> · <a href="https://huggingface.co/eustance">Hugging Face</a> · <a href="https://x.com/eustancewu">X</a></p>
-  <p><a href="README.md">English</a> · <a href="README_CN.md">中文</a> · <a href="README_FR.md">Français</a> · <a href="README_RU.md">Русский</a> · <a href="README_AR.md">العربية</a> · <a href="README_JP.md">日本語</a> · <a href="README_PTBR.md">Português</a> · <a href="README_TR.md">Türkçe</a></p>
+
+<a href="https://eust-w.github.io/3d-profile/"><img src="assets/hero-3d.svg" alt="Longtao Wu — Embodied AI × AI4AI" width="100%"></a>
+
+<a href="https://eust-w.github.io/3d-profile/"><img src="https://img.shields.io/badge/ENTER-3D_PROFILE-5ef0ff?style=for-the-badge&labelColor=0b1630" alt="Interactive 3D profile"></a>
+<a href="https://longtao.fun"><img src="https://img.shields.io/badge/WEBSITE-longtao.fun-ff5fa8?style=for-the-badge&labelColor=0b1630" alt="Website"></a>
+<a href="https://huggingface.co/eustance"><img src="https://img.shields.io/badge/HUGGING_FACE-eustance-ffc857?style=for-the-badge&labelColor=0b1630" alt="Hugging Face"></a>
+<a href="https://x.com/eustancewu"><img src="https://img.shields.io/badge/X-@eustancewu-7aa8ff?style=for-the-badge&labelColor=0b1630" alt="X"></a>
+
 </div>
 
-> **Building tools for robotics data, Real2Sim, simulation, and agent-driven engineering & scientific research.**
-> 构建机器人数据、Real2Sim、仿真，以及由 Agent 驱动的工程与科研工具。
+## From pixels to policy
 
-```
-Real ──► 3DGS ──► Sim ──► Policy ──► Agent ──► (memory · reflect) ──┐
- ▲                                                                   │
- └───────────────────────── evidence · eval · bench ◄────────────────┘
-```
+<img src="assets/pipeline.svg" alt="Real, splat, sim, policy, agent — a closed loop" width="100%">
 
-## 🤖 Embodied Intelligence
+I build the infrastructure around robot learning: capturing the real world, turning it into simulation, evaluating policies there, and giving coding agents a safe way to drive the whole loop.
 
-| Project | What it is |
+## Embodied intelligence
+
+<img src="assets/terminal.svg" alt="OpenGenieMaster reflecting on failures and writing lessons into long-term memory" width="100%">
+
+| Project | What it does |
 |---|---|
-| [**opengeniemaster**](https://github.com/eust-w/opengeniemaster) | Open-source embodied agent harness — EEP over MCP, safety interlocks, versioned memory, semantic multi-robot simulator |
-| [amd-bigym-3dgs-rocm](https://github.com/eust-w/amd-bigym-3dgs-rocm) | 3DGS kitchen shell for BiGym / MuJoCo reproduced on AMD ROCm (W7900D verified) |
-| [amd-bigym-openpi-eval](https://github.com/eust-w/amd-bigym-openpi-eval) | OpenPI (JAX) + BiGym + MuJoCo + 3DGS evaluation with 3-camera recording |
-| [WorldSpec](https://github.com/eust-w/WorldSpec) | Canonical world semantics, evidence & validation → multi-simulator compilation |
-| [robodata](https://github.com/eust-w/robodata) · [open-embodied-simops](https://github.com/eust-w/open-embodied-simops) | Dataset conversion / QA / segmentation · simulation workflow workbench |
+| [**opengeniemaster**](https://github.com/eust-w/opengeniemaster) | Open-source embodied agent harness. Embodied Execution Protocol over MCP, safety interlocks, versioned memory, and a semantic multi-robot simulator that models seven failure modes. |
+| [**amd-bigym-3dgs-rocm**](https://github.com/eust-w/amd-bigym-3dgs-rocm) | 3D Gaussian Splatting kitchen shell for BiGym and MuJoCo, reproduced on AMD ROCm with verified W7900D artifacts. |
+| [**amd-bigym-openpi-eval**](https://github.com/eust-w/amd-bigym-openpi-eval) | Reproducible OpenPI (JAX) evaluation on BiGym, MuJoCo and 3DGS, with full three-camera recording. |
+| [**WorldSpec**](https://github.com/eust-w/WorldSpec) | Canonical world semantics, evidence and validation, compiled to multiple simulators. |
+| [**robodata**](https://github.com/eust-w/robodata) | Robot dataset conversion, inspection, quality analysis and episode segmentation. |
+| [**open-embodied-simops**](https://github.com/eust-w/open-embodied-simops) | Self-hosted workbench for simulation integrations, dataset tools and artifact provenance. |
 
-## 🧊 Real2Sim & 3D Gaussian Splatting
+## Real2Sim and 3D Gaussian Splatting
 
-[real2simcapture](https://github.com/eust-w/real2simcapture) (iPhone ARKit → MJCF/URDF/USD) · [images23dgs](https://github.com/eust-w/images23dgs) · [gsstudio-public](https://github.com/eust-w/gsstudio-public) · [Real2Motrix](https://github.com/eust-w/Real2Motrix) · [real2sim-platform](https://github.com/eust-w/real2sim-platform) · [shanghai-city-digital-twin-plan](https://github.com/eust-w/shanghai-city-digital-twin-plan)
-
-## 🔁 AI4AI — agents that build, verify and evolve agents
-
-| Project | What it is |
+| Project | What it does |
 |---|---|
-| [agentic-embedded-lab](https://github.com/eust-w/agentic-embedded-lab) | Agent-native embedded lab: pluggable simulation, evidence-driven validation, controlled evolution |
-| [open-robotics-plugin](https://github.com/eust-w/open-robotics-plugin) | Robotics skills for Claude Code / Codex / Gemini CLI / Cursor |
-| [CSNative](https://github.com/eust-w/CSNative) | Provider routing & custom models for Claude Science (Go + Wails) |
-| [kakashi](https://github.com/eust-w/kakashi) · [codex-dispatch](https://github.com/eust-w/codex-dispatch) · [actor-map](https://github.com/eust-w/actor-map) · [superscience](https://github.com/eust-w/superscience) | Capability fusion · task queues · requirement maps · research workbench |
-| [cityagent-public](https://github.com/eust-w/cityagent-public) | LoRA + W8A8 quantization, evidence-backed extraction |
+| [**real2simcapture**](https://github.com/eust-w/real2simcapture) | iPhone ARKit / RGB-D capture to simulation assets, exported as MJCF, URDF and USD. |
+| [**images23dgs**](https://github.com/eust-w/images23dgs) | Image and RGB-D to 3DGS in one web product. |
+| [**gsstudio-public**](https://github.com/eust-w/gsstudio-public) | Gaussian Splatting studio with FastAPI, React and HY-World. |
+| [**Real2Motrix**](https://github.com/eust-w/Real2Motrix) | Local capture and mesh processing into validated MJCF / URDF scene packages. |
+| [**real2sim-platform**](https://github.com/eust-w/real2sim-platform) | Local-first 3D assets, material presets and reproducible Genesis FEM exports. |
+| [**shanghai-city-digital-twin-plan**](https://github.com/eust-w/shanghai-city-digital-twin-plan) | OpenStreetMap to 3D city assets with provenance and explicit validation limits. |
 
+## AI4AI: agents that build, test and evolve agents
+
+| Project | What it does |
+|---|---|
+| [**agentic-embedded-lab**](https://github.com/eust-w/agentic-embedded-lab) | Agent-native embedded systems lab: pluggable simulation, evidence-driven validation, controlled evolution. |
+| [**open-robotics-plugin**](https://github.com/eust-w/open-robotics-plugin) | Robotics skills for Claude Code, Codex, Gemini CLI and Cursor: MuJoCo, perception, planning, sim2real. |
+| [**CSNative**](https://github.com/eust-w/CSNative) | Provider routing and custom models for Claude Science, in Go and Wails. |
+| [**kakashi**](https://github.com/eust-w/kakashi) | Codex-powered capability fusion across GitHub repositories. |
+| [**codex-dispatch**](https://github.com/eust-w/codex-dispatch) | Local-first task queues for Codex CLI with SQLite persistence. |
+| [**actor-map**](https://github.com/eust-w/actor-map) | Turns a product conversation into an assertable map of roles and states. |
+| [**superscience**](https://github.com/eust-w/superscience) | Local research workbench for papers, code, notebooks and traceable evidence. |
+| [**cityagent-public**](https://github.com/eust-w/cityagent-public) | LoRA training and W8A8 quantization for evidence-backed report extraction. |
+
+## Toolbox
+
+<p>
+<img src="https://img.shields.io/badge/MuJoCo-0b1630?style=flat-square&logoColor=5ef0ff&color=5ef0ff&labelColor=0b1630" alt="MuJoCo">
+<img src="https://img.shields.io/badge/3D_Gaussian_Splatting-ff5fa8?style=flat-square" alt="3DGS">
+<img src="https://img.shields.io/badge/LeRobot-ffc857?style=flat-square" alt="LeRobot">
+<img src="https://img.shields.io/badge/OpenPI-7aa8ff?style=flat-square" alt="OpenPI">
+<img src="https://img.shields.io/badge/MCP-6dffb1?style=flat-square" alt="MCP">
+<img src="https://img.shields.io/badge/AMD_ROCm-ED1C24?style=flat-square" alt="ROCm">
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust">
+<img src="https://img.shields.io/badge/three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="three.js">
+</p>
 
 <a id="more"></a>
 ## More tools and experiments
