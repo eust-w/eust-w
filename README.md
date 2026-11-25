@@ -19,38 +19,21 @@ I build the infrastructure around robot learning: capturing the real world, turn
 
 <img src="assets/terminal.svg" alt="OpenGenieMaster reflecting on failures and writing lessons into long-term memory" width="100%">
 
-| Project | What it does |
-|---|---|
-| [**opengeniemaster**](https://github.com/eust-w/opengeniemaster) | Open-source embodied agent harness. Embodied Execution Protocol over MCP, safety interlocks, versioned memory, and a semantic multi-robot simulator that models seven failure modes. |
-| [**amd-bigym-3dgs-rocm**](https://github.com/eust-w/amd-bigym-3dgs-rocm) | 3D Gaussian Splatting kitchen shell for BiGym and MuJoCo, reproduced on AMD ROCm with verified W7900D artifacts. |
-| [**amd-bigym-openpi-eval**](https://github.com/eust-w/amd-bigym-openpi-eval) | Reproducible OpenPI (JAX) evaluation on BiGym, MuJoCo and 3DGS, with full three-camera recording. |
-| [**WorldSpec**](https://github.com/eust-w/WorldSpec) | Canonical world semantics, evidence and validation, compiled to multiple simulators. |
-| [**robodata**](https://github.com/eust-w/robodata) | Robot dataset conversion, inspection, quality analysis and episode segmentation. |
-| [**open-embodied-simops**](https://github.com/eust-w/open-embodied-simops) | Self-hosted workbench for simulation integrations, dataset tools and artifact provenance. |
+- [**opengeniemaster**](https://github.com/eust-w/opengeniemaster) — embodied agent harness: EEP over MCP, safety interlocks, versioned memory
+- [**amd-bigym-3dgs-rocm**](https://github.com/eust-w/amd-bigym-3dgs-rocm) · [**amd-bigym-openpi-eval**](https://github.com/eust-w/amd-bigym-openpi-eval) — 3DGS, BiGym, MuJoCo and OpenPI on AMD ROCm
+- [**WorldSpec**](https://github.com/eust-w/WorldSpec) · [**robodata**](https://github.com/eust-w/robodata) · [**open-embodied-simops**](https://github.com/eust-w/open-embodied-simops) — world semantics, datasets, sim workflows
 
 ## Real2Sim and 3D Gaussian Splatting
 
-| Project | What it does |
-|---|---|
-| [**real2simcapture**](https://github.com/eust-w/real2simcapture) | iPhone ARKit / RGB-D capture to simulation assets, exported as MJCF, URDF and USD. |
-| [**images23dgs**](https://github.com/eust-w/images23dgs) | Image and RGB-D to 3DGS in one web product. |
-| [**gsstudio-public**](https://github.com/eust-w/gsstudio-public) | Gaussian Splatting studio with FastAPI, React and HY-World. |
-| [**Real2Motrix**](https://github.com/eust-w/Real2Motrix) | Local capture and mesh processing into validated MJCF / URDF scene packages. |
-| [**real2sim-platform**](https://github.com/eust-w/real2sim-platform) | Local-first 3D assets, material presets and reproducible Genesis FEM exports. |
-| [**shanghai-city-digital-twin-plan**](https://github.com/eust-w/shanghai-city-digital-twin-plan) | OpenStreetMap to 3D city assets with provenance and explicit validation limits. |
+- [**real2simcapture**](https://github.com/eust-w/real2simcapture) — iPhone capture to MJCF / URDF / USD
+- [**images23dgs**](https://github.com/eust-w/images23dgs) · [**gsstudio-public**](https://github.com/eust-w/gsstudio-public) — image and RGB-D to Gaussian Splatting
+- [**Real2Motrix**](https://github.com/eust-w/Real2Motrix) · [**real2sim-platform**](https://github.com/eust-w/real2sim-platform) · [**shanghai-city-digital-twin-plan**](https://github.com/eust-w/shanghai-city-digital-twin-plan) — scene packages, assets, digital twins
 
-## AI4AI: agents that build, test and evolve agents
+## AI4AI
 
-| Project | What it does |
-|---|---|
-| [**agentic-embedded-lab**](https://github.com/eust-w/agentic-embedded-lab) | Agent-native embedded systems lab: pluggable simulation, evidence-driven validation, controlled evolution. |
-| [**open-robotics-plugin**](https://github.com/eust-w/open-robotics-plugin) | Robotics skills for Claude Code, Codex, Gemini CLI and Cursor: MuJoCo, perception, planning, sim2real. |
-| [**CSNative**](https://github.com/eust-w/CSNative) | Provider routing and custom models for Claude Science, in Go and Wails. |
-| [**kakashi**](https://github.com/eust-w/kakashi) | Codex-powered capability fusion across GitHub repositories. |
-| [**codex-dispatch**](https://github.com/eust-w/codex-dispatch) | Local-first task queues for Codex CLI with SQLite persistence. |
-| [**actor-map**](https://github.com/eust-w/actor-map) | Turns a product conversation into an assertable map of roles and states. |
-| [**superscience**](https://github.com/eust-w/superscience) | Local research workbench for papers, code, notebooks and traceable evidence. |
-| [**cityagent-public**](https://github.com/eust-w/cityagent-public) | LoRA training and W8A8 quantization for evidence-backed report extraction. |
+- [**agentic-embedded-lab**](https://github.com/eust-w/agentic-embedded-lab) — agent-native lab with controlled evolution
+- [**open-robotics-plugin**](https://github.com/eust-w/open-robotics-plugin) — robotics skills for Claude Code, Codex, Gemini CLI, Cursor
+- [**CSNative**](https://github.com/eust-w/CSNative) · [**kakashi**](https://github.com/eust-w/kakashi) · [**codex-dispatch**](https://github.com/eust-w/codex-dispatch) · [**actor-map**](https://github.com/eust-w/actor-map) · [**superscience**](https://github.com/eust-w/superscience) · [**cityagent-public**](https://github.com/eust-w/cityagent-public) — agent tooling and research
 
 ## Toolbox
 
