@@ -5066,7 +5066,7 @@
 <g stroke="#5ef0ff" stroke-opacity=".5" fill="none" stroke-width="1.4"><path d="M1094 150 h30 v-18 M1182 150 h-30 M1094 150 v18"><animate attributeName="stroke-opacity" values=".15;.8;.15" dur="2.4s" repeatCount="indefinite"/></path></g>
 <text x="1100" y="124" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#5ef0ff" opacity=".8">grasp · tracking<animate attributeName="opacity" values=".3;.9;.3" dur="2.4s" repeatCount="indefinite"/></text>
 <circle cx="68" cy="112" r="5" fill="#5ef0ff"><animate attributeName="opacity" values="1;.2;1" dur="1.6s" repeatCount="indefinite"/></circle>
-<text x="86" y="117" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" letter-spacing="5" fill="#5ef0ff">EMBODIED AI  ×  AI4AI</text>
+<text x="86" y="117" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" letter-spacing="5" fill="#5ef0ff">EMBODIED AI  ×  AI4AI  ×  DATA  ×  INFRA</text>
 <text x="60" y="215" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Helvetica,Arial,sans-serif" font-weight="800" font-size="104" letter-spacing="-3" fill="url(#title)">Longtao Wu</text>
 <text x="64" y="268" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Helvetica,Arial,sans-serif" font-size="24" fill="#d5e3fa">Robots that learn from the real world,</text>
 <text x="64" y="300" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Helvetica,Arial,sans-serif" font-size="24" fill="#d5e3fa">and agents that build the tools to teach them.</text>
@@ -5079,7 +5079,7 @@
 <rect x="323" y="338" width="94" height="30" rx="8" fill="#0b1630" stroke="#5ef0ff" stroke-opacity=".45"/><text x="370.0" y="358" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#bff7ff">POLICY</text>
 <text x="426" y="358" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#5ef0ff">→</text>
 <rect x="435" y="338" width="83" height="30" rx="8" fill="#0b1630" stroke="#5ef0ff" stroke-opacity=".45"/><text x="476.5" y="358" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#bff7ff">AGENT</text>
-<text x="64" y="425" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#8da2c0">MuJoCo · 3D Gaussian Splatting · MCP · Agent Skills · AMD ROCm</text>
+<text x="64" y="425" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#8da2c0">MuJoCo · 3DGS · MCP · Datasets · GPU serving · Cloud platforms</text>
 <text x="64" y="452" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#5ef0ff">longtao.fun   ·   github.com/eust-w</text>
 </g>
 <rect x=".5" y=".5" width="1279" height="539" rx="22" fill="none" stroke="#5ef0ff" stroke-opacity=".25"/>
