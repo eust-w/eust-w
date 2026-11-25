@@ -19,15 +19,6 @@ I work across the whole stack of robot learning: capturing the real world, turni
 
 <img src="assets/terminal.svg" alt="OpenGenieMaster reflecting on failures and writing lessons into long-term memory" width="100%">
 
-<a id="connect"></a>
-## Connect
-
-Project questions and contributions are welcome in the relevant repository’s Issues and Pull Requests.
-
-[Website](https://longtao.fun) · [Hugging Face](https://huggingface.co/eustance) · [X](https://x.com/eustancewu)
-
 ---
 
 <p align="center"><img src="cat.webp" alt="Longtao's cat illustration" width="56" /><br /><sub>Technology for good · Robotics · Agents · Research tooling</sub></p>
-
-<sub>Banner footage: Figure AI official media (figure.ai).</sub>
