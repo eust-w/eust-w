@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%">
+  <defs>
+    <radialGradient id="g" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#5ef0ff" stop-opacity=".95"/><stop offset="1" stop-color="#5ef0ff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="m" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ff5fa8" stop-opacity=".95"/><stop offset="1" stop-color="#ff5fa8" stop-opacity="0"/></radialGradient>
+    <radialGradient id="a" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ffc857" stop-opacity=".95"/><stop offset="1" stop-color="#ffc857" stop-opacity="0"/></radialGradient>
+    <linearGradient id="t" x1="0" x2="1"><stop offset="0" stop-color="#fff"/><stop offset=".6" stop-color="#5ef0ff"/><stop offset="1" stop-color="#ff5fa8"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#04060c"/><stop offset="1" stop-color="#0a1226"/></linearGradient>
+  </defs>
+  <rect width="1200" height="420" rx="18" fill="url(#bg)"/>
+  <!-- grid floor -->
+  <g stroke="#1d8fb0" stroke-opacity=".28" stroke-width="1">
+    <path d="M620 330 L1160 330 M580 360 L1190 360 M540 392 L1220 392"/>
+    <path d="M700 300 L560 410 M800 300 L720 410 M900 300 L880 410 M1000 300 L1040 410 M1100 300 L1200 410"/>
+  </g>
+  <!-- splat arm -->
+  <g stroke-linecap="round" fill="none">
+    <path d="M760 330 L800 200 L930 150 L985 200" stroke="url(#g)" stroke-width="26" stroke-opacity=".5"/>
+    <path d="M760 330 L800 200 L930 150 L985 200" stroke="#cfe9ff" stroke-width="8" stroke-opacity=".85" stroke-dasharray="2 9"/>
+    <animateTransform attributeName="transform" type="rotate" values="-2 760 330;3 760 330;-2 760 330" dur="6s" repeatCount="indefinite"/>
+  </g>
+  <circle cx="800" cy="200" r="22" fill="url(#a)"><animate attributeName="r" values="18;26;18" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="930" cy="150" r="20" fill="url(#g)"><animate attributeName="r" values="16;24;16" dur="3.4s" repeatCount="indefinite"/></circle>
+  <circle cx="1060" cy="318" r="26" fill="url(#m)"><animate attributeName="opacity" values=".6;1;.6" dur="2.6s" repeatCount="indefinite"/></circle>
+  <circle cx="1120" cy="300" r="20" fill="url(#a)"><animate attributeName="opacity" values="1;.55;1" dur="3.2s" repeatCount="indefinite"/></circle>
+  <!-- drifting splats -->
+  <g fill="#5ef0ff">
+    <circle cx="640" cy="90" r="2"><animate attributeName="cy" values="90;60;90" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="140" r="1.6" fill="#ff5fa8"><animate attributeName="cy" values="140;110;140" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="1040" cy="90" r="2.2"><animate attributeName="cy" values="90;130;90" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="1130" cy="170" r="1.8" fill="#ffc857"><animate attributeName="cy" values="170;140;170" dur="4.5s" repeatCount="indefinite"/></circle>
+    <circle cx="880" cy="70" r="1.5"><animate attributeName="cy" values="70;100;70" dur="5.5s" repeatCount="indefinite"/></circle>
+    <circle cx="590" cy="250" r="1.7" fill="#ff5fa8"><animate attributeName="cy" values="250;230;250" dur="6.5s" repeatCount="indefinite"/></circle>
+  </g>
+  <!-- text -->
+  <text x="60" y="130" font-family="ui-monospace,Menlo,monospace" font-size="15" letter-spacing="4" fill="#5ef0ff">EMBODIED AI × AI4AI</text>
+  <text x="60" y="215" font-family="-apple-system,Inter,sans-serif" font-weight="800" font-size="78" fill="url(#t)">Longtao Wu</text>
+  <text x="60" y="262" font-family="-apple-system,Inter,sans-serif" font-size="20" fill="#c6d6ee">Real → Splat → Sim → Policy → Agent</text>
+  <text x="60" y="300" font-family="-apple-system,Inter,sans-serif" font-size="16" fill="#8da2c0">Tools for robotics data, Real2Sim, simulation &amp;</text>
+  <text x="60" y="324" font-family="-apple-system,Inter,sans-serif" font-size="16" fill="#8da2c0">agent-driven engineering and scientific research.</text>
+  <text x="60" y="372" font-family="ui-monospace,Menlo,monospace" font-size="14" fill="#5ef0ff">longtao.fun</text>
+</svg>

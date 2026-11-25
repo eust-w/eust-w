@@ -1,34 +1,42 @@
 <div align="center">
-  <img src="assets/portfolio-hero.svg" alt="Longtao Wu — robotics, agents and research tools" width="100%" />
-  <h1>Longtao Wu</h1>
-  <p><strong>I build tools for robotics data, Real2Sim, simulation workflows, and agent-driven engineering and research.</strong></p>
-  <p><a href="https://longtao.fun">Website</a> · <a href="https://huggingface.co/eustance">Hugging Face</a> · <a href="https://x.com/eustancewu">X</a></p>
+  <a href="https://eust-w.github.io/3d-profile/"><img src="assets/hero-3d.svg" alt="Longtao Wu — Embodied AI × AI4AI" width="100%" /></a>
+  <p><a href="https://eust-w.github.io/3d-profile/"><b>🌐 Interactive 3D profile</b></a> · <a href="https://longtao.fun">Website</a> · <a href="https://huggingface.co/eustance">Hugging Face</a> · <a href="https://x.com/eustancewu">X</a></p>
   <p><a href="README.md">English</a> · <a href="README_CN.md">中文</a> · <a href="README_FR.md">Français</a> · <a href="README_RU.md">Русский</a> · <a href="README_AR.md">العربية</a> · <a href="README_JP.md">日本語</a> · <a href="README_PTBR.md">Português</a> · <a href="README_TR.md">Türkçe</a></p>
-  <p><a href="#projects">Selected public projects</a> · <a href="#toolchain">How the projects fit together</a> · <a href="#more">More tools and experiments</a></p>
 </div>
 
-My work connects physical-world inputs with inspectable software: geometry, datasets, world descriptions, runtime adapters and research workspaces.
+> **Building tools for robotics data, Real2Sim, simulation, and agent-driven engineering & scientific research.**
+> 构建机器人数据、Real2Sim、仿真，以及由 Agent 驱动的工程与科研工具。
 
-<a id="projects"></a>
-## Selected public projects
+```
+Real ──► 3DGS ──► Sim ──► Policy ──► Agent ──► (memory · reflect) ──┐
+ ▲                                                                   │
+ └───────────────────────── evidence · eval · bench ◄────────────────┘
+```
 
-| Project | What to explore |
-| :--- | :--- |
-| **[agentic-embedded-lab](https://github.com/eust-w/agentic-embedded-lab)** | Agent-oriented embedded experiments, simulation adapters and validation evidence. |
-| **[amd-bigym-3dgs-rocm](https://github.com/eust-w/amd-bigym-3dgs-rocm)** | AMD ROCm 3DGS reconstruction and BiGym evaluation workflows. |
-| **[WorldSpec](https://github.com/eust-w/WorldSpec)** | World schemas, validation, provenance and simulator export contracts. |
-| **[robodata](https://github.com/eust-w/robodata)** | Robot dataset conversion, inspection and quality analysis — alpha. |
-| **[Real2Motrix](https://github.com/eust-w/Real2Motrix)** | Local capture and mesh processing into MJCF / URDF scene packages. |
-| **[superscience](https://github.com/eust-w/superscience)** | A local scientific AI workbench with tools, notebooks and provenance. |
+## 🤖 Embodied Intelligence
 
-<a id="toolchain"></a>
-## How the projects fit together
+| Project | What it is |
+|---|---|
+| [**opengeniemaster**](https://github.com/eust-w/opengeniemaster) | Open-source embodied agent harness — EEP over MCP, safety interlocks, versioned memory, semantic multi-robot simulator |
+| [amd-bigym-3dgs-rocm](https://github.com/eust-w/amd-bigym-3dgs-rocm) | 3DGS kitchen shell for BiGym / MuJoCo reproduced on AMD ROCm (W7900D verified) |
+| [amd-bigym-openpi-eval](https://github.com/eust-w/amd-bigym-openpi-eval) | OpenPI (JAX) + BiGym + MuJoCo + 3DGS evaluation with 3-camera recording |
+| [WorldSpec](https://github.com/eust-w/WorldSpec) | Canonical world semantics, evidence & validation → multi-simulator compilation |
+| [robodata](https://github.com/eust-w/robodata) · [open-embodied-simops](https://github.com/eust-w/open-embodied-simops) | Dataset conversion / QA / segmentation · simulation workflow workbench |
 
-<img src="assets/project-map.svg" alt="Conceptual map of camera geometry, capture, robot data, world schemas, simulation, agents and research tools" width="100%" />
+## 🧊 Real2Sim & 3D Gaussian Splatting
 
-A conceptual workflow across complementary projects. Integration, runtime requirements and acceptance are documented in each repository.
+[real2simcapture](https://github.com/eust-w/real2simcapture) (iPhone ARKit → MJCF/URDF/USD) · [images23dgs](https://github.com/eust-w/images23dgs) · [gsstudio-public](https://github.com/eust-w/gsstudio-public) · [Real2Motrix](https://github.com/eust-w/Real2Motrix) · [real2sim-platform](https://github.com/eust-w/real2sim-platform) · [shanghai-city-digital-twin-plan](https://github.com/eust-w/shanghai-city-digital-twin-plan)
 
-I aim for reproducible examples, explicit interfaces and evidence that makes results inspectable.
+## 🔁 AI4AI — agents that build, verify and evolve agents
+
+| Project | What it is |
+|---|---|
+| [agentic-embedded-lab](https://github.com/eust-w/agentic-embedded-lab) | Agent-native embedded lab: pluggable simulation, evidence-driven validation, controlled evolution |
+| [open-robotics-plugin](https://github.com/eust-w/open-robotics-plugin) | Robotics skills for Claude Code / Codex / Gemini CLI / Cursor |
+| [CSNative](https://github.com/eust-w/CSNative) | Provider routing & custom models for Claude Science (Go + Wails) |
+| [kakashi](https://github.com/eust-w/kakashi) · [codex-dispatch](https://github.com/eust-w/codex-dispatch) · [actor-map](https://github.com/eust-w/actor-map) · [superscience](https://github.com/eust-w/superscience) | Capability fusion · task queues · requirement maps · research workbench |
+| [cityagent-public](https://github.com/eust-w/cityagent-public) | LoRA + W8A8 quantization, evidence-backed extraction |
+
 
 <a id="more"></a>
 ## More tools and experiments
