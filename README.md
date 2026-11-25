@@ -15,25 +15,9 @@
 
 I work across the whole stack of robot learning: capturing the real world, turning it into simulation, building the datasets, serving the models, and giving agents a safe way to drive the loop. Wherever the bottleneck is, that is where I build.
 
-## Embodied intelligence
+## Agents that learn on the job
 
 <img src="assets/terminal.svg" alt="OpenGenieMaster reflecting on failures and writing lessons into long-term memory" width="100%">
-
-- [**opengeniemaster**](https://github.com/eust-w/opengeniemaster) — embodied agent harness: EEP over MCP, safety interlocks, versioned memory
-- [**amd-bigym-3dgs-rocm**](https://github.com/eust-w/amd-bigym-3dgs-rocm) · [**amd-bigym-openpi-eval**](https://github.com/eust-w/amd-bigym-openpi-eval) — 3DGS, BiGym, MuJoCo and OpenPI on AMD ROCm
-- [**WorldSpec**](https://github.com/eust-w/WorldSpec) · [**robodata**](https://github.com/eust-w/robodata) · [**open-embodied-simops**](https://github.com/eust-w/open-embodied-simops) — world semantics, datasets, sim workflows
-
-## Real2Sim and 3D Gaussian Splatting
-
-- [**real2simcapture**](https://github.com/eust-w/real2simcapture) — iPhone capture to MJCF / URDF / USD
-- [**images23dgs**](https://github.com/eust-w/images23dgs) · [**gsstudio-public**](https://github.com/eust-w/gsstudio-public) — image and RGB-D to Gaussian Splatting
-- [**Real2Motrix**](https://github.com/eust-w/Real2Motrix) · [**real2sim-platform**](https://github.com/eust-w/real2sim-platform) · [**shanghai-city-digital-twin-plan**](https://github.com/eust-w/shanghai-city-digital-twin-plan) — scene packages, assets, digital twins
-
-## AI4AI
-
-- [**agentic-embedded-lab**](https://github.com/eust-w/agentic-embedded-lab) — agent-native lab with controlled evolution
-- [**open-robotics-plugin**](https://github.com/eust-w/open-robotics-plugin) — robotics skills for Claude Code, Codex, Gemini CLI, Cursor
-- [**CSNative**](https://github.com/eust-w/CSNative) · [**kakashi**](https://github.com/eust-w/kakashi) · [**codex-dispatch**](https://github.com/eust-w/codex-dispatch) · [**actor-map**](https://github.com/eust-w/actor-map) · [**superscience**](https://github.com/eust-w/superscience) · [**cityagent-public**](https://github.com/eust-w/cityagent-public) — agent tooling and research
 
 ## Data and infrastructure
 
